@@ -6,6 +6,30 @@
 
 ---
 
+## 화면 미리보기
+
+### 메인 페이지
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cda68a5b-a93e-4450-8094-b0be958e662a" width="500" align="top" style="vertical-align: top;" />
+  <img src="https://github.com/user-attachments/assets/54f20050-a1f3-430e-91eb-b698324beafa" width="500" align="top" style="vertical-align: top;" />
+</p>
+
+### 관리자 화면
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/c6e06d55-7247-44c8-90be-0501903695d6" width="500" /><br/>
+      <img src="https://github.com/user-attachments/assets/1183963f-2e18-4360-8d6f-52c66d6a1421" width="500" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/797a971e-f6ed-4c33-8179-bdcbe4698129" width="500" />
+    </td>
+  </tr>
+</table>
+
+
+---
+
 ## I 프로젝트 개요
 
 이 프로젝트는 **Pure PHP와 MariaDB**를 기반으로 구축된 쇼핑몰 웹사이트로,  
@@ -93,12 +117,20 @@ sudo apt install php php-mysql mariadb-server
 
 # 2. 프로젝트 복제
 git clone https://github.com/dodo5517/shoppingMall.git
-cd shop-php
+cd shoppingMall
 
 # 3. 데이터베이스 생성 및 초기화
-# phpMyAdmin 또는 터미널을 이용해 shop_db 생성 후 SQL 스크립트 실행
+# phpMyAdmin 또는 터미널을 이용해 shoppingMall_db 생성 후 SQL 스크립트 실행
 
-# 4. 서버 실행
+# 4. 환경 설정 파일(.env) 수정
+# 프로젝트 루트 디렉토리에 있는 .env 파일을 자신의 DB 환경에 맞게 변경하세요.
+#예시:
+#DB_HOST=localhost
+#DB_PORT=3302
+#DB_NAME=shoppingMall_db
+#DB_USER=shoppingMall_user
+#DB_PASS=비밀번호
+
+# 5. 서버 실행
 php -S localhost:8000
 ```
-Ⅶ 화면 미리보기
