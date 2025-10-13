@@ -9,10 +9,12 @@
 ## 화면 미리보기
 
 ### 메인 페이지
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cda68a5b-a93e-4450-8094-b0be958e662a" width="500" align="top" style="vertical-align: top;" />
-  <img src="https://github.com/user-attachments/assets/54f20050-a1f3-430e-91eb-b698324beafa" width="500" align="top" style="vertical-align: top;" />
-</p>
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/cda68a5b-a93e-4450-8094-b0be958e662a" width="500" /></td>
+    <td><img src="https://github.com/user-attachments/assets/54f20050-a1f3-430e-91eb-b698324beafa" width="500" /></td>
+  </tr>
+</table>
 
 ### 관리자 화면
 <table>
