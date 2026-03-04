@@ -31,12 +31,6 @@
 
 ---
 
-## 데모
-
-[데모 바로가기](https://shop.kimdohyeon.dev/main.php)
-
----
-
 ## I 프로젝트 개요
 
 이 프로젝트는 **Pure PHP와 MariaDB**를 기반으로 구축된 쇼핑몰 웹사이트로,  
